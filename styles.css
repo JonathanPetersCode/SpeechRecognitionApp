@@ -1,0 +1,47 @@
+html{
+    font-family: 'Staatliches',
+    cursive;
+    font-family: 'Fira Sans',
+    sans-serif;
+    background: beige;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    margin-top: 5%;
+    width: 40%;
+}
+
+.description{
+    padding: 5%;
+    background: rgba(70, 117, 95, 0.219);
+    color: white;
+}
+
+#main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.device-status, .message{
+    margin-top: 3rem;
+    min-height: 10%;
+    min-width: 50%;
+    padding: 30px 40px;
+    background: rgba(70, 117, 95, 0.219);
+    color: white;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+#content{
+    padding: 5%;
+    background: rgba(70, 117, 95, 0.219);
+}
