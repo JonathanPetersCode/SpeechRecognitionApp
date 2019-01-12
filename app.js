@@ -10,11 +10,13 @@ let messenger = document.querySelector(".message");
 //Mic was clicked and device stopped listening
 mic.onclick = () => {
     recognition.start();
+    mic.style.backgroundColor = "rgba(94, 187, 94, 0.671)";
 }
 //Device stopped listening
 recognition.onend = function () {
     recognition.stop();
     status.innerHTML = "Your device stopped listening!"
+    mic.style.backgroundColor = "red";
 }
 
 //Result of speech recognition 
