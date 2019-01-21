@@ -1,9 +1,7 @@
 html{
     font-family: 'Staatliches',
     cursive;
-    font-family: 'Fira Sans',
-    sans-serif;
-    background: beige;
+    background: rgb(254, 254, 231);
 }
 body {
     display: flex;
@@ -23,13 +21,18 @@ img {
 }
 
 img:hover{
-    background: grey;
+    background: rgb(108, 108, 108);
 }
 
 .description{
-    padding: 5%;
+    font-family: 'Staatliches',
+    cursive;
+    padding: 2rem;
     background: rgba(192, 226, 210, 0.5);
-    color: white;
+    color: black;
+    border: solid 2px rgba(255, 255, 255, 0.509);
+    border-radius: 5px;
+    border: 1.5px solid black;
 }
 
 #main{
@@ -38,6 +41,7 @@ img:hover{
     align-items: center;
     position: relative;
     z-index: 0;
+    border-radius: 5px;
 }
 
 .device-status, .message{
@@ -46,17 +50,23 @@ img:hover{
     min-width: 50%;
     padding: 30px 40px;
     background: rgba(192, 226, 210, 0.5);
-    color: white;
+    color: black;
+    border: solid 2px rgba(255, 255, 255, 0.509);
     text-align: center;
     font-size: 1.5em;
+    border-radius: 5px;
+    border: 1.5px solid black;
 }
 
 .device-status h2, .message h2 {
         font-size: 1em;
+        border-radius: 5px;
 }
 
 #content{
-    margin: 0;
+    margin-top: .5rem;
     padding: 1% 8%;
-    background: rgba(70, 117, 95, .5);
+    background: rgba(246, 250, 248, 0.5);
+    border-radius: 10px;
+    border: 1.5px solid black;
 }
